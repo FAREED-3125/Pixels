@@ -33,7 +33,7 @@ const Section = () => {
         </div>
 
         <div className="flex items-center justify-end">
-          <div className="w-[70%] md:w-[45%] lg:w-[33%] mt-auto text-[16px] font-[500] text-slate-400">
+          <div className="w-[70%] md:w-[45%] lg:w-[33%] mt-auto text-[15px] font-[500] text-slate-400">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi vitae
             ut ad dolor fuga consequatur eaque sapiente magni veritatis sit
             pariatur cupiditate modi ea, voluptatem qui nulla repudiandae,

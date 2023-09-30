@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import img from "../Assets/pexels-maxime-lecomte-13471116.jpg";
 import Loading from "./Loading";
 import Section from "./section2";
+import Section3 from "./Section3";
 const yelloboxVariant = {
   animate: {
     x: ["5%", "95%"],
@@ -70,6 +71,7 @@ const Home = () => {
      
     </motion.div> 
     <Section />
+    <Section3/>
      </>
   );
 };

@@ -22,6 +22,7 @@
     z-index: -1;
     filter: blur(125px);
     top: 10px;
+    overflow: hidden;
 }
 
 .home-container::before{
@@ -33,12 +34,23 @@
     position: absolute;
     z-index: -1;
     filter: blur(50px);
-    top: 300px;
+    top: 340px;
     right: 5%;
 
 }
 
 ::-webkit-scrollbar{
     display: none;
+}
+
+@media (max-width: 640px) {
+    .home-container::after{
+        left: -80px
+    }
+
+    .home-container::before{
+        top: 400px;
+        right: -80px;
+    }
 }
 
