@@ -1,0 +1,44 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+.text-stroke{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;
+}
+
+.home-container{
+    position: relative;
+}
+
+.home-container::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-color:#BC72FE;
+    clip-path: circle();
+    position: absolute;
+    z-index: -1;
+    filter: blur(125px);
+    top: 10px;
+}
+
+.home-container::before{
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-color:#D1EFED;
+    clip-path: circle();
+    position: absolute;
+    z-index: -1;
+    filter: blur(50px);
+    top: 300px;
+    right: 5%;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
