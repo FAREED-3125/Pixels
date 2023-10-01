@@ -20,7 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "buildcss": "npx tailwindcss ./src/input.css -o ./dist/output.css"
+    "buildcss": "npx tailwindcss ./src/input.css -o ./dist/output.css",
+    "runsample": "nodemon ./src/sample.js"
   },
   "eslintConfig": {
     "extends": [

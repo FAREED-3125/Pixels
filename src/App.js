@@ -20,7 +20,7 @@ function App() {
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.key}>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/menu" element={<Menu />}></Route>
+          
         </Routes>
       </AnimatePresence>
     </LayoutGroup>
